@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // Function to fetch movie data
 function getMovies() {
-    fetch("")
+    fetch("https://my-json-server.typicode.com/hugs4murigi/wk3-code-challenge/films")
         .then(res => res.json())
         .then(data => {
             // Call the 'displayMovieDetails' function to display movie titles
